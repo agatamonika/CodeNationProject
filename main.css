@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body {
+    font-family: "Ephesis";
+    background-color: rgba(248, 150, 59, 0.671);
+}
+
+h1 {
+    font-family: "Ephesis";
+    color: hsl(30, 2%, 16%);
+    font-weight: bold;
+    line-height: 1.0;
+    padding: 20px;
+    font-size: 100px;
+    background-color: rgb(202, 126, 54);
+}
+
+h1 {
+    text-align: center
+}
+
+.image{
+    display:flex;
+    position:relative;
+    width: 100;
+    justify-content: center;
+    align-self: center;
+}
+
+.home_image{
+    display: block;
+    height:600px; width:800px;
+    padding-left: 220px;
+    padding-right: 225px;
+    border-style: double;
+    border-color: rgb(116, 113, 113);
+}
+
+.overlay{
+    position:absolute;
+    width:100%;    
+    height:100%;
+    color:#ffffff;
+    font-size: 90px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:rgba(75, 72, 72, 0.705);
+    opacity:0;
+    transition:opacity 0.25s;
+}
+
+.overlay:hover{
+    opacity:1;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 50px;
+    font-weight: bold;}
+
+.logo {
+    border: 3px solid rgb(8, 8, 8);
+    padding: 2px;
+    width: 150px;}
+
+.links{
+    display: flex;
+    justify-content: space-between;}
+
+.home{
+    padding: 0px 100px;}
+
+.about {
+    padding: 0px 100px;}
+
+.pictures {
+    padding: 0px 100px;}
+
+
+.who_i_am{
+    font-size: 20px;
+    text-align:left;
+    font-family:cursive;
+}
+
+.para1{
+    background-color: rgba(253, 222, 163, 0.788);
+    border-color: black;
+    border-style: double;
+}
+
+.para2{
+    background-color:rgba(238, 188, 95, 0.788);
+    border-color: rgb(8, 8, 8);
+    border-style: double;
+}
+
+.para3{
+    background-color:rgba(196, 148, 60, 0.788);
+    border-color: rgb(8, 8, 8);
+    border-style: double;
+}
+
+.heading2, .heading3, .heading{
+    font-size:40px;
+    text-align:center ;
+}
+
+.what_i_like{
+    font-size: 20px;
+    text-align:left;
+    font-family:cursive;
+}
+
+.yet_to_do{
+    font-size: 20px;
+    text-align:left;
+    font-family:cursive;
+}
+.puppy1, .puppy2, .puppy3, .puppy4{
+    height: 250px; width:200px;
+    border-color: rgb(202, 126, 54);
+    border-style:solid;
+    border-width: 5mm;}
+
+.line1, .line2, .line3, .line4{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly ;}
+
+
+.txt1, .txt2, .txt3{
+    background-color: rgba(253, 222, 163, 0.788);
+    font-size: 20px;
+}
+
+.hheading1, .hheading2, .hheading3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.puppy5, .puppy6, .puppy7, .puppy8{
+    height: 250px; width:200px;
+    border-color: rgb(202, 126, 54);
+    border-style:solid;
+    border-width: 5mm;}
+
+.teenage1, .teenage2, .teenage3, .teenage4{
+    height: 250px; width:200px;
+    border-color: rgb(202, 126, 54);
+    border-style:solid;
+    border-width: 5mm;}
+
+.both_1, .both_2, .both_3, .both_4{
+    height: 250px; width:200px;
+    border-color: rgb(202, 126, 54);
+    border-style:solid;
+    border-width: 5mm;}
+
+.ppara1, .ppara2, .ppara3{
+    font-size: 15px;
+    text-align:left;
+    font-family:cursive;
+}
